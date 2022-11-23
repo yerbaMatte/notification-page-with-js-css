@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <nav class="nav-bar">
+        <h2 class="notification">
+          Notifications <span class="no-counter">X</span>
+        </h2>
+        <button class="btn-mark-read">Mark all as read</button>
+      </nav>
+      <section class="container-message">
+        <div class="postbox new">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="Mark" />
+          <div class="post-content">
+            <p class="reaction">
+              <a class="author" href="#">Mark Webber</a>
+              reacted to your recent post My first tournament today!
+            </p>
+            <p class="time">1m ago</p>
+          </div>
+        </div>
+        <div class="postbox new">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="Angela" />
+          <div class="post-content">
+            <p class="reaction">
+              <a class="author" href="#">Angela Gray</a> followed you
+            </p>
+            <p class="time">5m ago</p>
+          </div>
+        </div>
+        <div class="postbox new">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob" />
+          <div class="post-content">
+            <p class="reaction">
+              <a class="author" href="#">Jacob Thompson</a> has joined your
+              group
+              <a class="group">Chess Club</a>
+            </p>
+            <p class="time">1 day ago</p>
+          </div>
+        </div>
+        <div class="postbox msg">
+          <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky" />
+          <div class="post-content">
+            <p class="reaction">
+              <a class="author" href="#">Rizky Hasanuddin</a> sent you a private
+              message
+            </p>
+            <p class="time">5 days ago</p>
+            <p class="msg-box">
+              Hello, thanks for setting up the
+              <a class="group">Chess Club</a> . I've been a member for a few
+              weeks now and I'm already having lots of fun and improving my
+              game.
+            </p>
+          </div>
+        </div>
+
+        <div class="postbox">
+          <img src="./assets/images/avatar-kimberly-smith.webp" alt="Kim" />
+          <div class="post-content">
+            <p class="reaction">
+              <a class="author" href="#">Kimberly Smith</a> commented on your
+              picture
+            </p>
+            <p class="time">1 week ago</p>
+          </div>
+        </div>
+        <div class="postbox">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan" />
+          <div class="post-content">
+            <p class="reaction">
+              <a class="author" href="#">Nathan Peterson</a> reacted to your
+              recent post
+              <a class="group"
+                >5 end-game strategies to increase your win rate</a
+              >
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </div>
+        <div class="postbox">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="Anna" />
+          <div class="post-content">
+            <p class="reaction">
+              <a class="author" href="#">Anna Kim</a> left the group
+              <a class="group">Chess Club</a>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
